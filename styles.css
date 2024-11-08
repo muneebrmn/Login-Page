@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter-VariableFont_opsz\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body{
+    background-image: url(/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.main{
+    width: 430px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(209, 209, 209, 0.421);
+}
+.main h1{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+
+
+
+/* Username */
+.main #name{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    color: white;
+    border: 2px solid rgba(209, 209, 209, 0.421);
+    border-radius: 20px;
+    padding-left: 15px;
+    background: transparent;
+    font-size: 15px;
+}
+.main #name::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.username svg{
+    position: absolute;
+    left: 325px;
+    top: 102px;
+}
+
+
+
+
+
+/* Password */
+.main #password{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    color: white;
+    border: 2px solid rgba(209, 209, 209, 0.421);
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent;
+    font-size: 15px;
+}
+.main #password::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.parent .btn button{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid rgba(209, 209, 209, 0.421);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-left: 120px;
+}
+.parent .btn button:hover{
+    background-color: white;
+    color: rgb(59, 59, 59);
+}
+
+
+/* CheckBox & Forgot Password */
+.temp{
+    display: flex;
+    align-items: center;
+    width: 430px;
+}
+.temp #rem{
+    color: white;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.temp p{
+    float: left;
+    margin-top: 19px;
+    margin-right: 70px;
+    font-size: 13px;
+}
+.temp a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 19px;
+}
+
+
+
+/* Login Button */
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login button{
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: 2px solid rgba(209, 209, 209, 0.421);
+    text-align: center;
+    font-weight: 500;
+}
+.login button:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(59, 59, 59);
+}
+
+
+
+.text{
+    margin-top: 20px;
+}
+.text span{
+    font-size: 14px;
+}
+.text span a{
+    padding-left: 5px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
